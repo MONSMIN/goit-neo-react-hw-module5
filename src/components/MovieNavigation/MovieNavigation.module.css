@@ -1,0 +1,24 @@
+.nav {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.329);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	
+}
+
+.active {
+	color: red;
+}
+
+.link {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.link:focus,
+.link:active {
+    text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+.button {
+    margin: 5px 5px;
+    border: 1px solid rgb(215, 213, 213);
+    border-radius: 3px;
+    gap: 2px;
+    cursor: pointer;
+    color: black; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.button:hover {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+
+.button:active {
+    background-color: rgba(0, 0, 255, 0.3); 
+    color: blue; 
+}
